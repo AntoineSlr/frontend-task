@@ -32,24 +32,3 @@ Random dog picture for each user (as profile picture) can be fetched from `dog-i
 > API response returns url for image, not the image itself.
 >
 > To fetch multiple dog images, please request this: https://dog.ceo/api/breeds/image/random/4
-
-
-### Points to be noted
-* Fetching of user data and dog picture should be done in parallel.
-* User should be able to navigate back to `main` view from user `details` view and last fetched users should be still visible in the users list until the `fetch` button is clicked.
-* Ability to add some tests within the time frame will be seen as bonus, but not required for this task.
-* Please provide clear instructions on how to `run` (and `test` if there is any test provided) while submitting.
-
-## A sample UI workflow for better understanding
-
-![image](sample-ui-workflow.png)
-
-## How to submit
-* Create a branch from the `main` branch, where you will implement the solution.
-    * Please do not make changes or push chnages in the `main` branch.
-* Submit your implementation/solution by pushing changes into your branch
-    * To make sure you have correct access, to commit / push / pull, please make an initial commit to your branch and push the change to repo when you receive this assignment.
-    * In case of access issue, please contact immediately, so that we can fix.
-* Though an experienced `React` + `Typescript` developer can implement this assignment within dedicated 5 / 6 hours, it is completely fine to take more that 5 / 6 hours to complete this task or to showcase your capabilities.
-* However, we recommend to push your branch with the implementation within 6 hours of receiving the assignment and then continue working on this assignment and update the branch as required. Please note that, your access to the repository will be automatically revoked on 4 June 2024.
-* Once you are done, please send us a message indicating that you have finished and ready for review.
